@@ -61,8 +61,9 @@ FRONTEND_URL=${frontend_url}
 PROXY_PORT=443
 PORT=${backend_port}
 
-DB_HOST=localhost
 DB_DIALECT=postgres
+DB_HOST=localhost
+DB_PORT=5432
 DB_USER=${instancia_add}
 DB_PASS=${mysql_root_password}
 DB_NAME=${instancia_add}
